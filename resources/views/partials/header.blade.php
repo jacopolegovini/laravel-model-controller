@@ -1,5 +1,5 @@
 <header>
     <h1>
-        Header
+        Movies Homepage
     </h1>
 </header>

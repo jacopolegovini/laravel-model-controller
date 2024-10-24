@@ -3,7 +3,7 @@
 @section("page-title", "Homepage")
 
 @section("main-content")
-<h1>
-    Homepage
-</h1>
+<main>
+    <a href="{{route("pages.movies.index")}}">Clicca qui per vedere i film</a>
+</main>
 @endsection

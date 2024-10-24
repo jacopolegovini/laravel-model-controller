@@ -1,1 +1,19 @@
 @use "~bootstrap/scss/bootstrap" as *;
+
+header {
+    height: 150px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    text-decoration: none;
+}
+
+.movies-list {
+    flex-wrap: wrap;
+}
