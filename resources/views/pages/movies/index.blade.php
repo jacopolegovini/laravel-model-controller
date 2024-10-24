@@ -3,10 +3,10 @@
 @section("page-title", "Movies")
 
 @section("main-content")
-<main class="container">
+<main class="container my-3">
     <ul class="movies-list d-flex justify-content-between gap-2">
         @foreach ($movies as $index => $movie)
-            <li class="d-flex flex-column card">
+            <li class="d-flex flex-column card p-3">
                 <a href="{{route("show", $index)}}"><p>Title: {{$movie->title}}</p></a>
                 <p>Original Title: {{$movie->origianl_title}}</p>
                 <p>Nationality: {{$movie->nationality}}</p>

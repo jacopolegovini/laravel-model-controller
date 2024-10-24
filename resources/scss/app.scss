@@ -17,3 +17,11 @@ ul {
 .movies-list {
     flex-wrap: wrap;
 }
+
+.show-card {
+    display: flex;
+}
+
+p {
+    flex-grow: 0;
+}
