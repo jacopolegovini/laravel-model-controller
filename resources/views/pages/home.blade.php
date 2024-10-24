@@ -4,6 +4,6 @@
 
 @section("main-content")
 <main>
-    <a href="{{route("pages.movies.index")}}">Clicca qui per vedere i film</a>
+    <a href="{{route("movie")}}">Clicca qui per vedere i film</a>
 </main>
 @endsection
