@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MovieController;
+use App\Http\Controllers\ShowController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +21,4 @@ Route::get('/', function () {
 });
 
 Route::get('/movie', [MovieController::class, 'index'])->name('movie');
+Route::get('/movie/show/{id}', [ShowController::class, 'index'])->name('show');

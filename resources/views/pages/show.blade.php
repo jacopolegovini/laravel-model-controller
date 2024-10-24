@@ -5,7 +5,6 @@
 @section("main-content")
 <main class="container">
     <ul class="movies-list d-flex justify-content-between gap-2">
-        @foreach ($movies as $movie)
             <li class="d-flex flex-column card">
                 <a href="#"><p>Title: {{$movie->title}}</p></a>
                 <p>Original Title: {{$movie->origianl_title}}</p>
